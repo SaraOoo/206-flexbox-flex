@@ -102,31 +102,44 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 0 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
-  color: #fff;
 }
 
 header,
 footer {
-  background-color: #222;
-  height: 80px;
+  font-family: 'Raleway', sans-serif;
   width: 100%;
 }
 
+header {
+  height: 80px;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+footer {
+  height: 50px;
+  margin-top: 50px;
+  background-color: #155bdb;
+  justify-content: center;
+}
+
 main {
-  background-color: #ccc;
-  height: 250px;
+  height: 200px;
   width: 100%;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2em;
 }
 
 header,
 footer,
 main {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -136,10 +149,19 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: black;
+  background-color: lavender;
   line-height: 1.5em;
-  font-size: 1.25em;
-  /* height: auto; */
+  font-size: 1em;
+  padding: 15px;
+  height: 170px;
+}
+
+#div-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 260px;
 }
 
 .wrapper span {
@@ -164,7 +186,22 @@ main {
   font-size: 1.6em;
   background-color: purple;
   width: 30%;
-  height: 200px;
+}
+
+.bold-text {
+font-weight: bold;
+}
+
+.div-header {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.footer-text {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: white;
 }
 
 /* ==========================================================================
